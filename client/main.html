@@ -1,0 +1,26 @@
+<head>
+  <title>meteor-issue-769</title>
+</head>
+
+<body>
+  <h1>Loggin In / Logging Out Demo</h1>
+
+  {{#if currentUser}}
+    <p>Logged in as <strong>jsmith</strong>.</p>
+    <button class="btn-logout">Logout</button>
+  {{else}}
+    <p>Click to login as <strong>jsmith</strong>:</p>
+    <button class="btn-login">Login</button>
+  {{/if}}
+
+  <p>
+    <strong>Status:</strong>
+    {{#if loggingIn}}
+      LOGGING IN
+    {{/if}}
+
+    {{#if loggingOut}}
+      LOGGING OUT
+    {{/if}}
+  </p>
+</body>
