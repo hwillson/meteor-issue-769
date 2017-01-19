@@ -2,7 +2,7 @@
 
 Demonstration of https://github.com/meteor/meteor/issues/769 changes.
 
-Note: Has to be run with the Meteor changes in PR #TODO.
+Note: Has to be run with the Meteor changes in [PR #8271](https://github.com/meteor/meteor/pull/8271).
 
 ## Installation
 
@@ -15,4 +15,4 @@ cd meteor-issue-769
 
 ## Running
 
-Click on the login/logout button; You will see a "LOGGING IN" or "LOGGING OUT" status message.
+Click on the login/logout button; You will see a "LOGGING IN" or "LOGGING OUT" status message (also printed in the console).
